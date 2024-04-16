@@ -1,2 +1,2 @@
 FROM mysql:latest
-RUN apt-get update && apt-get install -y mysql-client
+RUN apk update && apk add mysql-client
